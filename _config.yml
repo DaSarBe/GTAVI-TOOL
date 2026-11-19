@@ -1,0 +1,17 @@
+# ===== 網站基本設定（改名稱只要改 title 這一行）=====
+title: "GTA6 台灣攻略站"
+description: "繁體中文 GTA VI 攻略、收集品與任務進度清單，台灣玩家實際遊玩整理。"
+lang: zh-Hant-TW
+
+# GitHub Pages 網址設定：https://dasarbe.github.io/GTAVI-TOOL
+url: "https://dasarbe.github.io"
+baseurl: "/GTAVI-TOOL"
+
+timezone: Asia/Taipei
+permalink: /guides/:year/:month/:title/
+markdown: kramdown
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

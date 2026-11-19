@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  <div class="search-box">
+    <input id="search" type="search" placeholder="搜尋攻略，例如：賺錢、收集品…" autocomplete="off">
+    <ul id="search-results"></ul>
+  </div>
+</section>
+
+<section class="cards">
+  <a class="card" href="{{ '/guides/' | relative_url }}">
+    <h2>📖 攻略文章</h2>
+    <p>任務、賺錢、新手技巧，實際遊玩整理。</p>
+  </a>
+  <a class="card" href="{{ '/checklist/' | relative_url }}">
+    <h2>✅ 進度清單</h2>
+    <p>勾選完成項目，自動存在你的瀏覽器。</p>
+  </a>
+</section>
+
+<section>
+  <h2>最新攻略</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:6 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="meta">{{ post.date | date: '%Y/%m/%d' }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<script src="{{ '/assets/js/search.js' | relative_url }}" data-index="{{ '/search.json' | relative_url }}"></script>

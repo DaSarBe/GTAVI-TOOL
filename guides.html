@@ -1,0 +1,18 @@
+---
+layout: default
+title: 攻略文章
+permalink: /guides/
+---
+<h1>攻略文章</h1>
+{% assign groups = site.posts | group_by: "category_name" %}
+{% for g in groups %}
+<h2>{% if g.name == "" %}其他{% else %}{{ g.name }}{% endif %}</h2>
+<ul class="post-list">
+  {% for post in g.items %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="meta">{{ post.date | date: '%Y/%m/%d' }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

@@ -1,0 +1,35 @@
+---
+layout: default
+title: 進度清單
+description: GTA VI 任務與收集品進度清單，勾選紀錄自動存在你的瀏覽器。
+permalink: /checklist/
+---
+<h1>進度清單</h1>
+<p>勾選已完成的項目，紀錄會自動存在這台裝置的瀏覽器（不用註冊）。</p>
+
+<div class="cl-toolbar">
+  <span id="cl-total"></span>
+  <label><input type="checkbox" id="cl-hide-done"> 隱藏已完成</label>
+  <button id="cl-reset" type="button">清除全部紀錄</button>
+</div>
+
+<div id="checklist">
+{% for group in site.data.checklist %}
+  <section class="cl-group">
+    <h2>{{ group.category }} <span class="cl-count"></span></h2>
+    <div class="cl-bar"><div class="cl-fill"></div></div>
+    <ul>
+      {% for item in group.items %}
+      <li class="cl-item{% if item.sample %} sample{% endif %}">
+        <label>
+          <input type="checkbox" data-id="{{ item.id }}">
+          <span class="cl-name">{{ item.name }}</span>
+          {% if item.note %}<small class="cl-note">{{ item.note }}</small>{% endif %}
+        </label>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>
+<script src="{{ '/assets/js/checklist.js' | relative_url }}"></script>

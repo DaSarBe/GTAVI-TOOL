@@ -1,0 +1,23 @@
+# ===== 進度清單資料 =====
+# 每個項目的 id 一旦上線就不要改（玩家的勾選紀錄是用 id 存的）。
+# sample: true 代表「範例資料」，等實際遊玩後替換成真實內容再刪掉這行。
+- category: 主線任務
+  items:
+    - id: main-001
+      name: （範例）第一個主線任務
+      note: 實際遊玩後替換
+      sample: true
+    - id: main-002
+      name: （範例）第二個主線任務
+      sample: true
+- category: 收集品
+  items:
+    - id: col-001
+      name: （範例）收集品 #1
+      note: 地點說明寫在這裡
+      sample: true
+- category: 支線與活動
+  items:
+    - id: side-001
+      name: （範例）支線任務
+      sample: true
