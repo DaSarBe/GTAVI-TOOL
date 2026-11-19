@@ -36,6 +36,7 @@ h2 { border-left: 4px solid var(--pink); padding-left: 10px; margin-top: 2em; }
   background: linear-gradient(90deg, var(--pink), var(--orange), var(--teal)); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .hero p { color: var(--muted); }
+.hero .tagline { color: var(--text); font-weight: 700; font-size: 1.15rem; letter-spacing: .1em; margin: 0; }
 .search-box { position: relative; max-width: 520px; margin: 18px auto 0; text-align: left; }
 #search { width: 100%; padding: 12px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--text); font-size: 1rem; }
 #search:focus { outline: 2px solid var(--teal); }
