@@ -110,3 +110,4 @@ h2 { border-left: 4px solid var(--pink); padding-left: 10px; margin-top: 2em; }
   .site-header { position: static; }
   .cl-toolbar { top: 0; }
 }
+.item-card .meta { white-space: normal; }
