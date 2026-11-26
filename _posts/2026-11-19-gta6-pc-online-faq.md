@@ -2,12 +2,15 @@
 layout: post
 title: "GTA6 PC 版、GTA Online 什麼時候出？常見問題"
 category_name: 常見問題
+updated: 2026-11-26
 description: "GTA6 PC 版何時推出？GTA Online 還能玩嗎？整理官方已確認的資訊與尚未證實的傳聞，一次釐清。"
 ---
 
 上市日大家最常問的兩件事：PC 什麼時候玩得到？GTA Online 怎麼辦？這裡把「官方確認」和「傳聞」分開講清楚。
 
 ## Q1：GTA6 有 PC 版嗎？
+
+上市一週後（11/26 更新），PC 版與 GTA VI 線上模式仍無官方消息。
 
 目前 Rockstar / Take-Two 都還沒宣布 PC 版，也沒有任何日期（已確認）。
 

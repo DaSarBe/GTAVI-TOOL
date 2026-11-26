@@ -1,23 +1,41 @@
 # ===== 進度清單資料 =====
 # 每個項目的 id 一旦上線就不要改（玩家的勾選紀錄是用 id 存的）。
-# sample: true 代表「範例資料」，等實際遊玩後替換成真實內容再刪掉這行。
-- category: 主線任務
+- category: 主線進度
   items:
-    - id: main-001
-      name: （範例）第一個主線任務
-      note: 實際遊玩後替換
-      sample: true
-    - id: main-002
-      name: （範例）第二個主線任務
-      sample: true
-- category: 收集品
+    - id: story-prologue
+      name: 序章
+    - id: story-ch1
+      name: 第一章
+    - id: story-ch2
+      name: 第二章
+    - id: story-ch3
+      name: 第三章
+    - id: story-ch4
+      name: 第四章
+    - id: story-ch5
+      name: 第五章
+- category: 白金路線
   items:
-    - id: col-001
-      name: （範例）收集品 #1
-      note: 地點說明寫在這裡
-      sample: true
-- category: 支線與活動
+    - id: plat-waink
+      name: WAiNK 掃描 100 個
+      note: 計入「You WAiNKer!」獎盃與 100% 完成；AHOL 街頭藝術與 1010 壁畫不計入
+    - id: plat-shooting
+      name: 射擊場 42 項挑戰全金牌
+      note: 獎盃「The Shootist」，攻略站整理
+    - id: plat-stunts
+      name: 完成 250 個特技
+      note: 獎盃「Cunning Stunts」，攻略站整理
+    - id: plat-activities
+      name: 每種活動各玩一次
+      note: 獎盃「Master of None」，攻略站整理
+    - id: plat-100
+      name: 遊戲 100% 完成
+      note: 金獎盃「A Long Road」
+    - id: plat-platinum
+      name: 白金「Vice Got a Price!」
+      note: 取得其他全部獎盃
+- category: 破關後
   items:
-    - id: side-001
-      name: （範例）支線任務
-      sample: true
+    - id: cheats-unlock
+      name: 解鎖作弊選單
+      note: 完成主線後於「進度」選單出現

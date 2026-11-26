@@ -2,6 +2,7 @@
 layout: post
 title: "GTA6 基本資訊整理：平台、價格、預載、主角與舞台一次看"
 category_name: 新手入門
+updated: 2026-11-26
 description: "GTA6（GTA VI）上市日 2026-11-19 基本資訊整理：支援平台、標準版與終極版價格、預載與容量、PC 與 Online 狀態、雙主角與雷歐尼達舞台。"
 ---
 
@@ -49,6 +50,17 @@ GTA VI 今天（2026-11-19）上市了！這篇是新手懶人包，把大家最
 - 官方完整地圖目前尚未公開。
 
 完整介紹在這：[GTA6 主角與舞台介紹]({{ '/guides/2026/11/gta6-characters-leonida/' | relative_url }})
+
+## 上市後更新（11/26）
+
+上市一週，幾件比較值得知道的事：
+
+- 評分：Metacritic（PS5）99 分，與《薩爾達傳說：時之笛》並列史上最高分（已確認），分數可能隨後續評論變動。整理在：[GTA6 評價整理]({{ '/guides/2026/11/gta6-reviews/' | relative_url }})
+- 畫面：Rockstar 官方表示 PS5、PS5 Pro、Xbox Series X|S 都以 30 FPS 為目標，上市時沒有官方 60 FPS 效能模式（已確認）。設定建議看：[GTA6 畫面與瞄準設定建議]({{ '/guides/2026/11/gta6-settings-aim/' | relative_url }})
+- 更新檔：上市前有 01.002.000 更新（11/13 開始推送），Rockstar 未公布更新內容。
+- 其他整理：[獎盃總覽]({{ '/guides/2026/11/gta6-trophies/' | relative_url }})、[主線任務與章節]({{ '/guides/2026/11/gta6-missions-chapters/' | relative_url }})、[收集品總覽]({{ '/guides/2026/11/gta6-collectibles/' | relative_url }})、[秘籍作弊碼]({{ '/guides/2026/11/gta6-cheats/' | relative_url }})、[前期賺錢]({{ '/guides/2026/11/gta6-early-money/' | relative_url }})、[通緝系統]({{ '/guides/2026/11/gta6-wanted-system/' | relative_url }})
+
+PC 版目前仍未宣布，上面「PC 版與 GTA Online」那段維持原狀。
 
 > 小提醒：上市初期資訊變動很快，本站會隨官方公告更新。進度追蹤可以先把[進度清單]({{ '/checklist/' | relative_url }})加到書籤。
 
