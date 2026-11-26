@@ -1,0 +1,49 @@
+---
+layout: default
+title: 隱藏武器與車輛地圖
+description: GTA6 隱藏武器與稀有車輛互動地圖，依地區、武器、車輛篩選，附解鎖流程與示範影片。
+permalink: /hidden/
+extra_css: /assets/vendor/leaflet/leaflet.css
+---
+<h1>隱藏武器與車輛地圖</h1>
+<p>點地圖上的大頭針可以看位置說明、解鎖流程和示範影片。標示「大約位置」的是依攻略文字描述放的，站長實地確認後會再修正。</p>
+
+<div class="map-filters" id="map-filters">
+  <label>地區
+    <select id="f-region">
+      <option value="">全部地區</option>
+      {% assign regions = site.data.hidden_items | map: "region" | uniq | sort %}
+      {% for r in regions %}<option value="{{ r }}">{{ r }}</option>{% endfor %}
+    </select>
+  </label>
+  <label class="chip chip-weapon"><input type="checkbox" id="f-weapon" checked> 🔫 武器</label>
+  <label class="chip chip-vehicle"><input type="checkbox" id="f-vehicle" checked> 🚗 車輛</label>
+  <label class="chip"><input type="checkbox" id="f-puzzle"> 🧩 只看需解謎</label>
+  <span id="f-count" class="meta"></span>
+</div>
+
+<div id="map" class="game-map"
+     data-image="{% if site.data.map.image != '' %}{{ site.data.map.image | relative_url }}{% endif %}"
+     data-width="{{ site.data.map.width }}" data-height="{{ site.data.map.height }}"></div>
+
+<h2>完整清單</h2>
+{% if site.data.hidden_items.size == 0 %}
+<p class="meta">資料整理中，敬請期待。</p>
+{% endif %}
+<div id="item-list">
+{% for it in site.data.hidden_items %}
+  <article class="item-card" id="item-{{ it.id }}" data-id="{{ it.id }}" data-type="{{ it.type }}" data-region="{{ it.region }}" data-puzzle="{{ it.puzzle | default: false }}">
+    <h3><span class="badge badge-{{ it.type }}">{% if it.type == 'weapon' %}🔫 武器{% else %}🚗 車輛{% endif %}</span> {{ it.name }}{% if it.name_zh %}（{{ it.name_zh }}）{% endif %}</h3>
+    <p class="meta">{{ it.region }}{% if it.subtype %} ・ {{ it.subtype }}{% endif %}{% if it.puzzle %} ・ 🧩 需解謎{% endif %}{% if it.approx %} ・ 大約位置{% endif %} ・ {{ it.status }}</p>
+    <p><strong>位置：</strong>{{ it.location }}</p>
+    {% if it.steps %}<p><strong>解鎖流程：</strong></p><ol>{% for s in it.steps %}<li>{{ s }}</li>{% endfor %}</ol>{% endif %}
+    {% if it.video %}<p><strong>示範影片：</strong><a href="{{ it.video }}" target="_blank" rel="noopener">{{ it.video_title | default: it.video }}</a>（第三方影片，僅供參考）</p>{% endif %}
+    <p class="meta">來源：{% for s in it.sources %}<a href="{{ s }}" target="_blank" rel="noopener">[{{ forloop.index }}]</a> {% endfor %}</p>
+    <button type="button" class="show-on-map" data-id="{{ it.id }}">📍 在地圖上看</button>
+  </article>
+{% endfor %}
+</div>
+
+<script>window.HIDDEN_ITEMS = {{ site.data.hidden_items | jsonify }};</script>
+<script src="{{ '/assets/vendor/leaflet/leaflet.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/hidden-map.js' | relative_url }}"></script>

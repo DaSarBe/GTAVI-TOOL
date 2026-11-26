@@ -1,0 +1,17 @@
+# ===== 隱藏武器與車輛資料 =====
+# 欄位說明：
+#   id:        唯一代號（上線後不要改）
+#   name:      遊戲內英文名稱
+#   name_zh:   中文俗稱（可省略）
+#   type:      weapon（武器）或 vehicle（車輛／載具）
+#   subtype:   例如 手槍、步槍、跑車、機車、船、飛機
+#   region:    地區（Vice City、Leonida Keys、Grassrivers、Port Gellhorn、Ambrosia、Mount Kalaga）
+#   x, y:      在底圖上的像素座標（左上角為 0,0）
+#   approx:    true = 依文字描述放的大約位置，尚未實地確認
+#   location:  位置描述
+#   puzzle:    true = 需要解謎／闖關
+#   steps:     解鎖流程（每步一行）
+#   video:     YouTube 影片網址（可省略）；video_title：影片標題
+#   status:    已確認 / 單一來源
+#   sources:   參考來源網址
+[]
