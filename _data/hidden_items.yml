@@ -280,3 +280,596 @@
     - https://beebom.com/how-to-get-jets-in-gta-6/
     - https://slashgear.com/2321327/gta-6-how-to-steal-fighter-jet-from-military-base-location/
     - https://games.gg/grand-theft-auto-vi/guides/gta-6-fighter-jet-location/
+
+- id: w-buntosaurus-bat
+  x: 1243
+  y: 1318
+  name: Buntosaurus Bat
+  type: weapon
+  subtype: 近戰（球棒）
+  region: Frogswater
+  approx: true
+  location: Frogswater 的 Dino Golf（SR-32 公路旁），右側其中一個打擊練習籠裡。
+  puzzle: false
+  steps:
+  - 前往 Frogswater、SR-32 公路旁的 Dino Golf。
+  - 到右側的打擊練習籠，逐一查看就能找到球棒。
+  video: https://www.youtube.com/watch?v=cZTvR_bPVMI
+  video_title: GTA 6 Buntosaurus Bat Unique Secret Weapon Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/buntosaurus-bat
+
+- id: w-candy-suxxx-bat
+  x: 1850
+  y: 2524
+  name: Candy Suxxx Bat
+  type: weapon
+  subtype: 近戰（球棒）
+  region: Peacock Estates
+  approx: true
+  location: Peacock Estates，成人片大亨 Gil Reynolds 的豪宅裡。
+  puzzle: false
+  steps:
+  - 前往 Peacock Estates 的 Gil Reynolds 豪宅。
+  - 在豪宅裡找到球棒。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/candy-suxxx-bat
+
+- id: w-cargo-hl38
+  x: 2240
+  y: 2140
+  name: Cargo H&L .38
+  type: weapon
+  subtype: 手槍（特殊版本）
+  region: Port Vice City
+  approx: true
+  location: Port Vice City 貨櫃區，一個黃色的 Scoop 貨櫃裡。
+  puzzle: true
+  steps:
+  - 前往 Port Vice City 的貨櫃區，找到黃色的 Scoop 貨櫃。
+  - 先爬上它後方那疊貨櫃中較矮的一個。
+  - 跳到鏽紅色的貨櫃上，再越過黑色貨櫃，到達黃色貨櫃。
+  - 破開黃色貨櫃就能拿到手槍。
+  video: https://www.youtube.com/watch?v=L4A5ahQ5Nb4
+  video_title: GTA 6 Cargo H&L .38 Unique Weapon Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/cargo-h-l-38
+
+- id: w-cockroach-556
+  x: 1890
+  y: 2287
+  name: Cockroach Xtreme 556
+  type: weapon
+  subtype: 突擊步槍（特殊版本）
+  region: Tequesta
+  approx: true
+  location: Tequesta（Vice-Dale County）的 Sunrise Motel，中庭一間單車位車庫裡，藏在一疊衛生紙後面。
+  puzzle: false
+  steps:
+  - 前往 Tequesta 的 Sunrise Motel。
+  - 進入中庭的單車位車庫。
+  - 搬開或繞到那疊衛生紙後面就能找到。
+  video: https://www.youtube.com/watch?v=A3sQgVVHnQg
+  video_title: 'GTA 6 Unique Weapon: Cockroach Xtreme 556 Assault Rifle Location'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/cockroach-xtreme-556
+
+- id: w-conspiracist-type9
+  x: 1625
+  y: 1950
+  name: Conspiracist Type 9
+  type: weapon
+  subtype: 衝鋒槍（特殊版本）
+  region: Balsero
+  approx: true
+  location: Balsero、Griffin 射擊場西南方的一間拖車屋，屋內活板門下方的地下軍火庫。
+  puzzle: true
+  steps:
+  - 前往 Balsero、Griffin 射擊場西南方的拖車屋。
+  - 進屋找到地板上的活板門，打開往下走。
+  - 地下軍火庫的桌上就是這把衝鋒槍。
+  video: https://www.youtube.com/watch?v=jpYUTejUyTI
+  video_title: 'GTA 6 CONSPIRACIST TYPE 9 SMG LOCATION GUIDE #gta6 #grandtheftauto6'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/conspiracist-type-9
+
+- id: w-copperheads-w14
+  x: 1930
+  y: 790
+  name: Copperheads W-14
+  type: weapon
+  subtype: 步槍（特殊版本）
+  region: Millport
+  approx: true
+  location: Millport 東北方的港口，一個裝滿運動用品的黃色貨櫃裡。
+  puzzle: true
+  steps:
+  - 先推進主線到第三章，拿到切割貨櫃用的工具。
+  - 前往 Millport 東北方的港口，找到裝滿運動用品的黃色貨櫃。
+  - 用工具切開貨櫃就能拿到步槍。
+  video: https://www.youtube.com/watch?v=9HG12Vd4oxU
+  video_title: GTA 6 Copperheads W-14 Legendary Rifle Location (Free Suppressed Rifle)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/copperheads-w-14
+
+- id: w-couch-potato
+  x: 880
+  y: 1400
+  name: Couch Potato Mustang .357
+  type: weapon
+  subtype: 左輪手槍（特殊版本）
+  region: Port Gellhorn
+  approx: true
+  location: Port Gellhorn、Tanglewood Ln. 旁一間拖車屋前，一張吊在樹上的沙發裡。
+  puzzle: true
+  steps:
+  - 前往 Port Gellhorn 的 Tanglewood Ln.，找到拖車屋前樹上吊著的沙發。
+  - 開槍打斷吊沙發的繩子，讓它掉下來。
+  - 坐上沙發，就會找到藏在裡面的左輪。
+  video: https://www.youtube.com/watch?v=WabQRVH8JSA
+  video_title: How to Get LEGENDARY WEAPON COUCH POTATO MUSTANG .357 in GTA 6
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/couch-potato-mustang-357
+
+- id: w-cursed-knife
+  x: 2240
+  y: 950
+  name: Cursed Knife
+  type: weapon
+  subtype: 近戰（刀）
+  region: Little Hardin Island
+  approx: true
+  location: Little Hardin Island 東端外海的海底，一艘沉沒的小船裡。是「幽靈船」彩蛋的獎勵。
+  puzzle: true
+  steps:
+  - 這是「幽靈船」彩蛋的獎勵，影片標題稱為 Ghost Ship Lighthouse 彩蛋，完整觸發步驟建議看影片。
+  - 前往 Little Hardin Island 東端外海。
+  - 潛到海底的小沉船裡找到這把刀。
+  video: https://www.youtube.com/watch?v=IqKb-yJGroE
+  video_title: 'GTA 6: How to Get the Cursed Knife | Ghost Ship Lighthouse Easter Egg'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/cursed-knife
+
+- id: w-deadringer-1922
+  x: 1580
+  y: 585
+  name: Deadringer 1922
+  type: weapon
+  subtype: 手槍（特殊版本）
+  region: East Lummox County
+  approx: true
+  location: East Lummox County，Moreau River 南岸的一間拖車屋，掉在地板上。
+  puzzle: false
+  steps:
+  - 前往 East Lummox County、Moreau River 南岸的拖車屋。
+  - 在屋內地板上找到。同一間屋子的沙發上還有 Money Bag 1922。
+  video: https://www.youtube.com/watch?v=9MwIqLOX3MY
+  video_title: GTA 6 Deadringer 1922 & Money Bag 1922 Legendary Pistols Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/deadringer-1922
+
+- id: w-money-bag-1922
+  x: 1594
+  y: 590
+  name: Money Bag 1922
+  type: weapon
+  subtype: 手槍（特殊版本）
+  region: East Lummox County
+  approx: true
+  location: East Lummox County，Moreau River 南岸的一間拖車屋，放在沙發上。
+  puzzle: false
+  steps:
+  - 前往 East Lummox County、Moreau River 南岸的拖車屋。
+  - 在沙發上找到。地板上還有 Deadringer 1922，可以一起拿。
+  video: https://www.youtube.com/watch?v=9MwIqLOX3MY
+  video_title: GTA 6 Deadringer 1922 & Money Bag 1922 Legendary Pistols Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/money-bag-1922
+
+- id: w-dirty-drifter
+  x: 1330
+  y: 520
+  name: Dirty Drifter
+  type: weapon
+  subtype: 霰彈槍（特殊版本）
+  region: Bonanza
+  approx: true
+  location: Bonanza 沿海公路旁，一輛卡在土石流裡的藍色汽車後車廂。
+  puzzle: false
+  steps:
+  - 沿 Bonanza 的沿海公路找到卡在土石流裡的藍色汽車。
+  - 打開後車廂就能拿到。
+  video: https://www.youtube.com/watch?v=s5Uyj8IjVuM
+  video_title: GTA 6 Dirty Drifter Legendary Shotgun Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/dirty-drifter
+
+- id: w-double-cross-vatra
+  x: 840
+  y: 2470
+  name: Double Cross Vatra
+  type: weapon
+  subtype: 衝鋒槍（特殊版本）
+  region: Bobcat Key
+  approx: true
+  location: Mariana County、Bobcat Key 西邊的 Leonida 灣海底。海面附近漂著三具屍體，就是標記。
+  puzzle: false
+  steps:
+  - 搭船前往 Bobcat Key 西邊的海域。
+  - 找到海面漂浮的三具屍體。
+  - 從那裡潛到海底找到武器。
+  video: https://www.youtube.com/watch?v=sYehEwFSKWU
+  video_title: 'GTA 6: Where to get Early Unique Uzi/Heavy SMG (Double Cross Vatra) & Easy Cash'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/double-cross-vatra
+
+- id: w-drug-mule-kz59
+  x: 640
+  y: 3140
+  name: Drug Mule KZ-59
+  type: weapon
+  subtype: 突擊步槍（特殊版本）
+  region: Riquezas Keys
+  approx: true
+  location: Mile Zero Air Station 西北方、Riquezas Keys 北岸外海，一艘沉沒快艇的下方。海面有漂浮的包裹做標記。
+  puzzle: false
+  steps:
+  - 搭船前往 Riquezas Keys 北岸外海，找到海面漂浮的包裹。
+  - 潛下去，在沉沒快艇的下方找到武器。
+  video: https://www.youtube.com/watch?v=10sYwUR0ads
+  video_title: 'GTA 6 Unique Weapon Location: Drug Mule KZ-59'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/drug-mule-kz-59
+
+- id: w-explorers-knife
+  x: 1260
+  y: 1590
+  name: Explorer's Knife
+  type: weapon
+  subtype: 近戰（刀）
+  region: Emerald Springs
+  approx: true
+  location: Emerald River 的地下河段，要從 Selkie Hole 潛下去。
+  puzzle: true
+  steps:
+  - 前往 Emerald River 的 Selkie Hole。
+  - 拿取那裡的潛水裝備和手電筒。
+  - 潛入水中，沿著黃色導引繩往北，經過警告標誌後繼續前進就能找到。
+  video: https://www.youtube.com/watch?v=GnN-1OMCong
+  video_title: GTA 6 Explorer's Knife Location (Secret Unique Weapon)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/explorers-knife
+
+- id: w-fib-sm69
+  x: 2380
+  y: 1860
+  name: FIB SM-69
+  type: weapon
+  subtype: 狙擊槍（特殊版本）
+  region: Vice Beach
+  approx: true
+  location: Vice Beach 一棟摩天大樓的頂樓，位於兩間醫院之間。
+  puzzle: true
+  steps:
+  - 要先完成相關任務，這把槍才會出現在這裡。
+  - 前往 Vice Beach 兩間醫院之間的摩天大樓，上到頂樓。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/fib-sm-69
+
+- id: w-iaa-sms01
+  x: 2338
+  y: 1688
+  name: IAA SMS-01
+  type: weapon
+  subtype: 衝鋒槍（特殊版本）
+  region: Washington Beach
+  approx: true
+  location: Washington Beach、Northside Ave 上 Aichi Condominiums 的屋頂最高處。
+  puzzle: true
+  steps:
+  - 要先完成相關任務，這把槍才會出現在這裡。
+  - 前往 Washington Beach 的 Aichi Condominiums，爬到屋頂最高處。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/iaa-sms-01
+
+- id: w-internal-affairs-ffsr
+  x: 2356
+  y: 1702
+  name: Internal Affairs FF-SR
+  type: weapon
+  subtype: 步槍（特殊版本）
+  region: Washington Beach
+  approx: true
+  location: Washington Beach、Northside Ave 上最高、有直升機停機坪的那棟大樓，屋頂西北角。
+  puzzle: true
+  steps:
+  - 要先完成相關任務，這把槍才會出現在這裡。
+  - 前往 Northside Ave 上有直升機停機坪的最高大樓，到屋頂西北角。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/internal-affairs-ff-sr
+
+- id: w-little-friend-w10
+  x: 2356
+  y: 2006
+  name: Little Friend W-10
+  type: weapon
+  subtype: 衝鋒槍（特殊版本）
+  region: Ocean Beach
+  approx: true
+  location: Ocean Beach、Shore Drive 旁 Sunlite Motel 的二樓房間（從紅色遮陽篷下的樓梯上去）。致敬《疤面煞星》的彩蛋。
+  puzzle: true
+  steps:
+  - 前往 Ocean Beach 的 Sunlite Motel，從紅色遮陽篷下的樓梯上二樓。
+  - 大約中午到下午 1 點去跟房門互動，會先觸發一段短劇情。
+  - 劇情結束後門才會打開，進房間就能拿到。
+  - 影片標題稱為《疤面煞星》（Scarface）彩蛋。
+  video: https://www.youtube.com/watch?v=hLwhi1rG6O4
+  video_title: GTA 6 Scarface Easter Egg – How to Get the Little Friend W-10 Legendary SMG (Scarface Hotel)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/little-friend-w-10
+
+- id: w-lyles-hl38
+  x: 1380
+  y: 600
+  name: Lyle's H&L .38
+  type: weapon
+  subtype: 手槍（特殊版本）
+  region: Bonanza
+  approx: true
+  location: Bonanza 一條道路盡頭的老穀倉，裡面一輛車的後車廂。
+  puzzle: false
+  steps:
+  - 前往 Bonanza，沿路走到盡頭找到老穀倉。
+  - 從側門進去。
+  - 打開穀倉內汽車的後車廂。
+  video: https://www.youtube.com/watch?v=5BZTVb6Livw
+  video_title: GTA 6 Lyle's H&L .38 Unique Weapon Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/lyles-h-l-38
+
+- id: w-marthas-1922
+  x: 1446
+  y: 650
+  name: Martha's 1922
+  type: weapon
+  subtype: 手槍（特殊版本）
+  region: Moreau
+  approx: true
+  location: Moreau 廢棄的 Outlaw's Cabin，主屋的壁爐裡。
+  puzzle: true
+  steps:
+  - 前往 Moreau 的 Outlaw's Cabin。
+  - 從東南側進入地窖，再爬樓梯上到主屋。
+  - 在壁爐裡找到手槍。
+  video: https://www.youtube.com/watch?v=q1D8_kjK8FU
+  video_title: GTA 6 Martha's 1922 Legendary Pistol Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/marthas-1922
+
+- id: w-mercenary-lmg6
+  x: 2216
+  y: 2108
+  name: Mercenary LMG 6
+  type: weapon
+  subtype: 輕機槍（特殊版本）
+  region: Port Vice City
+  approx: true
+  location: Port Vice City 貨櫃區北邊，一個黃色 Scoop 貨櫃裡。
+  puzzle: true
+  steps:
+  - 為了避開守衛，建議從水路進入。
+  - 爬上梯子，從藍色貨櫃跳到米色貨櫃。
+  - 破開黃色貨櫃就能拿到輕機槍。
+  video: https://www.youtube.com/watch?v=y1s32QBPHpU
+  video_title: Get This SECRET Legendary WEAPON MERCENARY 6 LMG in GTA 6!
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/mercenary-lmg-6
+
+- id: w-redneck-w22
+  x: 1470
+  y: 620
+  name: Redneck W-22
+  type: weapon
+  subtype: 小型獵槍（特殊版本）
+  region: Moreau
+  approx: true
+  location: Moreau 一條河的北岸，一節廢棄黃色火車車廂的後段。
+  puzzle: false
+  steps:
+  - 前往 Moreau 的河北岸，找到廢棄的黃色火車車廂。
+  - 從南側進入，在車廂後段找到。
+  video: https://www.youtube.com/watch?v=Lv_p9ydjVeg
+  video_title: 'Where to Find Redneck W-22 Small Game Rifle GTA 6 '
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/redneck-w-22
+
+- id: w-shark-knife
+  x: 1480
+  y: 440
+  name: Shark Knife
+  type: weapon
+  subtype: 近戰（刀）
+  region: Saint Attaway Islands
+  approx: true
+  location: Saint Attaway Islands 北邊的海底峽谷，插在鯊魚籠旁邊的地上。
+  puzzle: false
+  steps:
+  - 搭船前往 Saint Attaway Islands 北邊海域。
+  - 潛到海底峽谷，在鯊魚籠旁找到插在地上的刀。
+  video: https://www.youtube.com/watch?v=niTe0L_xrJg
+  video_title: 'GTA 6 Shark Knife Location: Legendary Knife Hidden Underwater (Shark Cage)'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/shark-knife
+
+- id: w-soldiers-knife
+  x: 840
+  y: 2380
+  name: Soldier's Combat Knife
+  type: weapon
+  subtype: 近戰（刀）
+  region: Bobcat Bight
+  approx: true
+  location: Bobcat Bight 與 Bobcat Key 之間的西岸，一輛半沉的坦克艙口裡。
+  puzzle: false
+  steps:
+  - 前往 Bobcat Bight 和 Bobcat Key 之間的西岸。
+  - 找到半沉在水裡的坦克，打開艙口拿刀。
+  video: https://www.youtube.com/watch?v=Xz9RNrsrqQs
+  video_title: GTA 6 – How to Get the SOLDIER'S COMBAT KNIFE Early! (Unique Weapon Guide)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/soldiers-combat-knife
+
+- id: w-stoner-k17
+  x: 1550
+  y: 1320
+  name: Stoner K17 MCD
+  type: weapon
+  subtype: 步槍（特殊版本）
+  region: Ambrosia
+  approx: true
+  location: Ambrosia 北邊 US-35 公路旁的 Big Day Motel，115 號房床右邊的床頭櫃上。
+  puzzle: false
+  steps:
+  - 前往 Ambrosia 北邊、US-35 公路旁的 Big Day Motel。
+  - 進入 115 號房，在床右邊的床頭櫃上找到。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/stoner-k17-mcd
+
+- id: w-swamp-bait-akulus
+  x: 1468
+  y: 2715
+  name: Swamp Bait Akulus
+  type: weapon
+  subtype: 重型左輪（特殊版本）
+  region: Grassrivers
+  approx: true
+  location: Hamlet 西南方的沼澤，較大那棟水邊建築的地板上。
+  puzzle: false
+  steps:
+  - 前往 Hamlet 西南方的沼澤。
+  - 進入較大的那棟水邊建築，在地板上找到。
+  video: https://www.youtube.com/watch?v=n7DbNEF6vGY
+  video_title: GTA 6 - How To Get Swamp Bait Akulus (Heavy Revolver Unique Weapon)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/swamp-bait-akulus
+
+- id: w-tallaloko-knife
+  x: 1730
+  y: 784
+  name: Tallaloko Knife
+  type: weapon
+  subtype: 近戰（刀）
+  region: East Lummox County
+  approx: true
+  location: East Lummox County、Lake Tallaloko 西岸的 Evergreen 小屋，二樓上鎖的門後面。同一處的保險盒裡還有超過 $7,000 的珠寶。
+  puzzle: true
+  steps:
+  - 前往 Lake Tallaloko 西岸的 Evergreen 小屋。
+  - 上二樓，想辦法打開上鎖的門（影片標題稱為「秘密房間之謎」）。
+  - 門後可以拿到刀，保險盒裡還有超過 $7,000 的珠寶。
+  video: https://www.youtube.com/watch?v=n48BilDegOo
+  video_title: GTA 6 - Lake Tallaloko Secret Room Mystery (Tallaloko Knife)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/tallaloko-knife
+
+- id: w-patriarch-drx
+  x: 1505
+  y: 835
+  name: The Patriarch DRX
+  type: weapon
+  subtype: 步槍（特殊版本）
+  region: Mount Kalaga
+  approx: true
+  location: Kalaga Reservoir 西南側的水下，一輛沉車旁邊。
+  puzzle: false
+  steps:
+  - 前往 Kalaga Reservoir 西南側，找到岸邊散落的行李。
+  - 從那裡潛入水中，穿過水藻，在沉車旁找到武器。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/the-patriarch-drx
+
+- id: w-turnt-nipper
+  x: 760
+  y: 2255
+  name: Turnt Nipper .38
+  type: weapon
+  subtype: 手槍（特殊版本）
+  region: Bobcat Bight
+  approx: true
+  location: Bobcat Bight，Bobcat Bay 北端，一架卡在樹上的墜毀動力三角翼座位上。
+  puzzle: false
+  steps:
+  - 前往 North Mariana County 西邊、Bobcat Bay 北端的 Bobcat Bight。
+  - 找到卡在樹上的墜毀動力三角翼，武器就在座位上。
+  video: https://www.youtube.com/watch?v=p5gD4xH53-Y
+  video_title: GTA 6 Unique Weapon Turnt Nipper .38 Location Guide
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/turnt-nipper-38
+
+- id: w-twins-laird
+  x: 1560
+  y: 815
+  name: Twin's Laird 350
+  type: weapon
+  subtype: 狙擊槍（特殊版本）
+  region: Mount Kalaga
+  approx: true
+  location: Lummox County、Kalaga Reservoir 東邊的樹林裡，一座小型狩獵台旁邊的地上。
+  puzzle: false
+  steps:
+  - 前往 Kalaga Reservoir 東邊的樹林。
+  - 找到小型狩獵台，在旁邊地上撿起狙擊槍。
+  video: https://www.youtube.com/watch?v=4731ufPoFs4
+  video_title: 'GTA 6 | TWIN''S LAIRD 350 SNIPER Location '
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/twins-laird-350
+
+- id: w-unpacked-comshot
+  x: 1595
+  y: 3178
+  name: Unpacked Comshot 12
+  type: weapon
+  subtype: 霰彈槍（特殊版本）
+  region: Key Lento
+  approx: true
+  location: Key Lento 西北岸的一棟房子，二樓後側臥室的浴室門後，靠在牆上。
+  puzzle: true
+  steps:
+  - 前往 Key Lento 西北岸的這棟房子。
+  - 爬上屋外樓梯，破門進入二樓。
+  - 走到後側臥室，霰彈槍就靠在套房浴室門後的牆邊。
+  video: https://www.youtube.com/watch?v=HBEJFFHCy6k
+  video_title: GTA 6 How To Get The Best Legendary Shotgun Early - Unpacked Comshot 12  Combat Shotgun Location
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/weapons/unpacked-comshot-12
