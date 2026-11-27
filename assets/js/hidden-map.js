@@ -57,6 +57,45 @@
     return h + '</div>';
   }
 
+  // ===== 分區 =====
+  var areas = window.MAP_AREAS || [];
+  function inPoly(x, y, poly) {
+    var c = false;
+    for (var i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+      var xi = poly[i][0], yi = poly[i][1], xj = poly[j][0], yj = poly[j][1];
+      if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) c = !c;
+    }
+    return c;
+  }
+  var areaById = {};
+  areas.forEach(function (a) { areaById[a.id] = a; });
+  items.forEach(function (it) {
+    it._area = '';
+    if (typeof it.x !== 'number') return;
+    for (var i = 0; i < areas.length; i++) {
+      if (inPoly(it.x, it.y, areas[i].polygon)) { it._area = areas[i].id; break; }
+    }
+    var card = document.getElementById('item-' + it.id);
+    var label = card && card.querySelector('.area-name');
+    if (label && it._area) label.textContent = areaById[it._area].name + ' ・ ';
+  });
+  function toLatLngs(poly) { return poly.map(function (p) { return [H - p[1], p[0]]; }); }
+  var areaLayer = null;
+  function showArea(id) {
+    if (areaLayer) { areaLayer.remove(); areaLayer = null; }
+    var desc = document.getElementById('f-area-desc');
+    if (!id || !areaById[id]) { desc.hidden = true; map.fitBounds(bounds); return; }
+    var a = areaById[id], ring = toLatLngs(a.polygon);
+    var outer = [[-H, -W], [-H, 2 * W], [2 * H, 2 * W], [2 * H, -W]];
+    areaLayer = L.layerGroup([
+      L.polygon([outer, ring], { stroke: false, fillColor: '#05040a', fillOpacity: 0.55, interactive: false }),
+      L.polygon(ring, { color: '#ffd23f', weight: 3, dashArray: '10 8', fill: false, interactive: false })
+    ]).addTo(map);
+    map.fitBounds(L.latLngBounds(ring), { padding: [20, 20] });
+    desc.textContent = '範圍包含：' + a.desc + '（邊界為大略範圍）';
+    desc.hidden = false;
+  }
+
   var markers = {};
   items.forEach(function (it) {
     if (typeof it.x !== 'number' || typeof it.y !== 'number') return;
@@ -87,7 +126,7 @@
   var fCount = document.getElementById('f-count');
 
   function visible(it) {
-    if (fRegion.value && it.region !== fRegion.value) return false;
+    if (fRegion.value && it._area !== fRegion.value) return false;
     if (it.type === 'weapon' && !fWeapon.checked) return false;
     if (it.type !== 'weapon' && !fVehicle.checked) return false;
     if (fPuzzle.checked && !it.puzzle) return false;
@@ -106,7 +145,8 @@
     });
     fCount.textContent = '顯示 ' + n + ' / ' + items.length + ' 項';
   }
-  [fRegion, fWeapon, fVehicle, fPuzzle].forEach(function (f) { f.addEventListener('change', apply); });
+  [fWeapon, fVehicle, fPuzzle].forEach(function (f) { f.addEventListener('change', apply); });
+  fRegion.addEventListener('change', function () { apply(); showArea(fRegion.value); });
   apply();
 
   // 讓大頭針停在地圖偏下方，上方留空間給說明卡

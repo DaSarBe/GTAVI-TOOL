@@ -1,0 +1,117 @@
+# ===== 地圖分區 =====
+# 官方地圖沒有畫出分區邊界，以下範圍是依地名位置大致畫出來的。
+# polygon 是底圖上的像素座標 [x, y]，左上角為 0,0。
+- id: lummox
+  name: Lummox 山區
+  desc: Mount Kalaga、Moreau、Bonanza、Lake Tallaloko、Millport
+  polygon:
+  - [926, 379]
+  - [1571, 323]
+  - [1964, 491]
+  - [2272, 898]
+  - [2258, 1122]
+  - [1935, 1116]
+  - [1571, 1100]
+  - [1206, 1116]
+  - [926, 1111]
+  - [813, 926]
+- id: kelly
+  name: Port Gellhorn 與西岸
+  desc: Port Gellhorn、Capri、Draper Island、Wild Hog Point、Kelly County、Frogswater
+  polygon:
+  - [477, 1100]
+  - [1206, 1116]
+  - [1402, 1122]
+  - [1431, 1459]
+  - [1445, 1823]
+  - [1318, 1978]
+  - [926, 2146]
+  - [421, 2146]
+  - [295, 1683]
+  - [393, 1262]
+- id: leonard
+  name: Ambrosia 與 Leonard 郡
+  desc: Ambrosia、Belville、Lake Leonida、Waning Sands
+  polygon:
+  - [1402, 1122]
+  - [1571, 1100]
+  - [1935, 1116]
+  - [2258, 1122]
+  - [2342, 1318]
+  - [2160, 1571]
+  - [1964, 1677]
+  - [1571, 1711]
+  - [1445, 1683]
+  - [1431, 1459]
+- id: vicecity
+  name: 罪惡城市區
+  desc: Downtown、Little Cuba、Balsero、La Perle、Rockridge、VCIA
+  polygon:
+  - [1445, 1683]
+  - [1571, 1711]
+  - [1964, 1677]
+  - [2146, 1641]
+  - [2137, 2132]
+  - [1964, 2244]
+  - [1529, 2306]
+  - [1388, 2132]
+  - [1318, 1978]
+  - [1445, 1823]
+- id: vicebeach
+  name: 罪惡海灘與群島
+  desc: Vice Beach、Ocean Beach、Washington Beach、Rialto、Starfish、Waxman
+  polygon:
+  - [2160, 1571]
+  - [2342, 1318]
+  - [2496, 1571]
+  - [2553, 2020]
+  - [2468, 2342]
+  - [2146, 2342]
+  - [2137, 2132]
+  - [2146, 1641]
+- id: vicedale
+  name: Vice-Dale 南部
+  desc: Hamlet、Tequesta、Peacock Estates、Southside
+  polygon:
+  - [1529, 2306]
+  - [1964, 2244]
+  - [2137, 2132]
+  - [2146, 2342]
+  - [2468, 2342]
+  - [2244, 2524]
+  - [1964, 2707]
+  - [1795, 2819]
+  - [1529, 2791]
+  - [1520, 2524]
+- id: grassrivers
+  name: Grassrivers 沼澤
+  desc: Grassrivers、Pelican Valley、Watson Bay、Bobcat Key
+  polygon:
+  - [421, 2146]
+  - [926, 2146]
+  - [1318, 1978]
+  - [1388, 2132]
+  - [1529, 2306]
+  - [1520, 2524]
+  - [1529, 2791]
+  - [1795, 2819]
+  - [1683, 2945]
+  - [1571, 3024]
+  - [1122, 3007]
+  - [813, 2833]
+  - [673, 2412]
+- id: keys
+  name: Leonida Keys 群島
+  desc: Key Lento、Permit Keys、Mile Zero Air Station、Riquezas Keys
+  polygon:
+  - [477, 3029]
+  - [813, 2833]
+  - [1122, 3007]
+  - [1571, 3024]
+  - [1683, 2945]
+  - [1795, 2819]
+  - [2020, 2791]
+  - [1851, 3170]
+  - [1599, 3394]
+  - [1122, 3506]
+  - [477, 3506]

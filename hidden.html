@@ -14,14 +14,14 @@ extra_css: /assets/vendor/leaflet/leaflet.css
   <label>地區
     <select id="f-region">
       <option value="">全部地區</option>
-      {% assign regions = site.data.hidden_items | map: "region" | uniq | sort %}
-      {% for r in regions %}<option value="{{ r }}">{{ r }}</option>{% endfor %}
+      {% for a in site.data.areas %}<option value="{{ a.id }}">{{ a.name }}</option>{% endfor %}
     </select>
   </label>
   <label class="chip chip-weapon"><input type="checkbox" id="f-weapon" checked> 🔫 武器</label>
   <label class="chip chip-vehicle"><input type="checkbox" id="f-vehicle" checked> 🚗 車輛</label>
   <label class="chip"><input type="checkbox" id="f-puzzle"> 🧩 只看需解謎</label>
   <span id="f-count" class="meta"></span>
+  <p id="f-area-desc" class="meta area-desc" hidden></p>
 </div>
 
 <div id="map" class="game-map"
@@ -36,7 +36,7 @@ extra_css: /assets/vendor/leaflet/leaflet.css
 {% for it in site.data.hidden_items %}
   <article class="item-card" id="item-{{ it.id }}" data-id="{{ it.id }}" data-type="{{ it.type }}" data-region="{{ it.region }}" data-puzzle="{{ it.puzzle | default: false }}">
     <h3><span class="badge badge-{{ it.type }}">{% if it.type == 'weapon' %}🔫 武器{% else %}🚗 車輛{% endif %}</span> {{ it.name }}{% if it.name_zh %}（{{ it.name_zh }}）{% endif %}</h3>
-    <p class="meta">{{ it.region }}{% if it.subtype %} ・ {{ it.subtype }}{% endif %}{% if it.puzzle %} ・ 🧩 需解謎{% endif %}{% if it.x and it.approx %} ・ 大約位置{% endif %} ・ {{ it.status }}</p>
+    <p class="meta"><span class="area-name"></span>{{ it.region }}{% if it.subtype %} ・ {{ it.subtype }}{% endif %}{% if it.puzzle %} ・ 🧩 需解謎{% endif %}{% if it.x and it.approx %} ・ 大約位置{% endif %} ・ {{ it.status }}</p>
     <p><strong>位置：</strong>{{ it.location }}</p>
     {% if it.steps %}<p><strong>解鎖流程：</strong></p><ol>{% for s in it.steps %}<li>{{ s }}</li>{% endfor %}</ol>{% endif %}
     {% if it.video %}<p><strong>示範影片：</strong><a href="{{ it.video }}" target="_blank" rel="noopener">{{ it.video_title | default: it.video }}</a>（第三方影片，僅供參考）</p>{% endif %}
@@ -46,6 +46,6 @@ extra_css: /assets/vendor/leaflet/leaflet.css
 {% endfor %}
 </div>
 
-<script>window.HIDDEN_ITEMS = {{ site.data.hidden_items | jsonify }};</script>
+<script>window.HIDDEN_ITEMS = {{ site.data.hidden_items | jsonify }}; window.MAP_AREAS = {{ site.data.areas | jsonify }};</script>
 <script src="{{ '/assets/vendor/leaflet/leaflet.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/hidden-map.js' | relative_url }}"></script>

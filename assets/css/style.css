@@ -111,3 +111,4 @@ h2 { border-left: 4px solid var(--pink); padding-left: 10px; margin-top: 2em; }
   .cl-toolbar { top: 0; }
 }
 .item-card .meta { white-space: normal; }
+.area-desc { width: 100%; margin: 0; white-space: normal; }
