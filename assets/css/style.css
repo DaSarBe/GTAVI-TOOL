@@ -84,7 +84,7 @@ h2 { border-left: 4px solid var(--pink); padding-left: 10px; margin-top: 2em; }
 .game-map { height: 70vh; min-height: 420px; border-radius: 12px; border: 1px solid var(--line); background: #0c0a12; }
 .map-placeholder { color: var(--muted); font-size: 1.1rem; text-align: center; line-height: 40px; }
 .pin { display: flex; align-items: center; justify-content: center; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.5); }
-.pin span { transform: rotate(45deg); font-size: 16px; }
+.pin span { transform: rotate(45deg); font-size: 13px; }
 .pin-weapon { background: var(--pink); }
 .pin-vehicle { background: var(--teal); }
 .pin-approx { border-style: dashed; opacity: .9; }

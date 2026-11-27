@@ -14,75 +14,93 @@
 #   video:     YouTube 影片網址（可省略）；video_title：影片標題
 #   status:    已確認 / 單一來源
 #   sources:   參考來源網址
-# 注意：x、y 座標等官方地圖底圖放上後才會填入；沒有座標的項目只會出現在下方清單。
+# 注意：沒有 x、y 座標的項目只會出現在下方清單，不會出現在地圖上。
+# 座標依官方地圖上的地名標示放置，approx: true 代表尚未在遊戲內實地核對。
 
 - id: w-assassin-nipper
+  x: 1048
+  y: 3292
   name: Assassin Nipper .38
   type: weapon
   subtype: 手槍（特殊版本）
   region: Permit Keys
   approx: true
-  location: Permit Keys 東南方小島的最南端，沙灘上擱淺的一艘破舊木船（有攻略稱為間諜船）。
-  puzzle: false
+  location: Permit Keys 東南邊緣、Mile Zero Air Station 東邊，沙灘上擱淺的一艘破船（間諜船）。
+  puzzle: true
   steps:
-    - 從 Key Lento 搭船或水上摩托車往南，前往 Permit Keys 東南方的小島。
-    - 在小島南端的沙灘找到擱淺的破船。
-    - 爬上船，打開甲板上的艙口即可拿到（艙口細節目前僅單一來源）。
-    - 順路可以到最北邊的小島拿 Smuggler's Gorse 425 霰彈槍。
+    - 從 Key Lento 搭船或水上摩托車往西南，前往 Permit Keys 東南邊緣的小島。
+    - 找到擱淺的破船，這把槍是「間諜船謎題」的一部分。
+    - 爬上船，打開甲板地板上的小艙口就能拿到。
+    - 謎題的完整步驟建議直接看示範影片。
   video: "https://www.youtube.com/watch?v=Ce47LOQauQY"
   video_title: "GTA 6 Secret SILENCED PISTOL Location! (Assassin Nipper .38)"
   status: 已確認
   sources:
-    - https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-assassin-pistol-smuggler-shotgun-locations/
     - https://www.gtabase.com/gta-6/weapons/assassin-nipper-38
+    - https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-assassin-pistol-smuggler-shotgun-locations/
     - https://beebom.com/gta-6-secret-silenced-pistol-location/
 
 - id: w-smuggler-gorse
-  name: Smuggler's Gorse 425
+  x: 1000
+  y: 3155
+  name: Smuggler Gorse 425
   type: weapon
   subtype: 霰彈槍（特殊版本）
   region: Permit Keys
   approx: true
-  location: Permit Keys 最北邊的小島，靠近一艘廢棄的走私船。
+  location: Mile Zero Air Station 東邊、Permit Keys 的一座小島，沖上岸的廢棄走私船裡。
   puzzle: false
   steps:
-    - 搭船前往 Permit Keys 最北邊的小島。
-    - 在廢棄走私船附近找到並撿起。
+    - 搭船前往 Mile Zero Air Station 東邊的 Permit Keys 小島群。
+    - 找到沖上岸的廢棄走私船，武器就在船上。
+    - 可以跟 Assassin Nipper .38 一趟一起拿。
+  video: "https://www.youtube.com/watch?v=3k8sMtkPL00"
+  video_title: "GTA 6 Unique Weapons: Smuggler's Gorse 425 Shotgun Location"
   status: 已確認
   sources:
+    - https://www.gtabase.com/gta-6/weapons/smuggler-gorse-425
     - https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-assassin-pistol-smuggler-shotgun-locations/
     - https://www.noobfeed.com/articles/gta-6-early-game-guns
 
 - id: w-blackeagle-m306
+  x: 1650
+  y: 1937
   name: Black Eagle Import M306 TMR
   type: weapon
   subtype: 戰術步槍（特殊版本，不能改裝）
   region: Balsero
   approx: true
-  location: Balsero 的 Black Eagle 倉庫（在 Black Eagle 槍店旁邊），倉庫內一間有柵欄的房間。
+  location: Balsero 的 Black Eagle 倉庫，就在 Black Eagle 槍店（Ammu-Nation）旁邊。
   puzzle: true
   steps:
-    - 前往 Balsero 的 Black Eagle 倉庫。
-    - 找到裡面有柵欄的房間。
-    - 進入方法有兩種：用堆高機把擋住的箱子移開，或用 Lucia 從狹縫鑽進去（進入方法目前僅單一來源）。
+    - 這把只有 Lucia 拿得到，先切換成 Lucia。
+    - 從倉庫的車庫入口進去。
+    - 走到貨車後面那扇有柵欄的門。
+    - 左轉，從箱子和鐵絲網牆中間的縫隙鑽進去，就能拿到步槍。
+  video: "https://www.youtube.com/watch?v=qMgbLOqXybc"
+  video_title: "GTA 6 Black Eagle Import M306 TMR Unique Weapon Location"
   status: 已確認
   sources:
     - https://www.gtabase.com/gta-6/weapons/black-eagle-import-m306-tmr
     - https://beebom.com/gta-6-secret-silenced-m306-tmr-rifle/
 
 - id: w-blackeagle-kalinga
+  x: 1664
+  y: 1942
   name: Black Eagle Import Kalinga
   type: weapon
   subtype: 手槍（Kalinga .50 特殊版本，不能改裝）
   region: Balsero
   approx: true
-  location: 同一座 Black Eagle 倉庫，前方角落的辦公室保險箱裡。
+  location: 同一座 Black Eagle 倉庫，前方角落辦公室裡的保險箱。
   puzzle: true
   steps:
-    - 前往 Balsero 的 Black Eagle 倉庫，進入前方角落的辦公室（門上有密碼鎖）。
-    - 查看辦公室電腦的登入畫面，上面會顯示保險箱密碼。
-    - 輸入密碼打開保險箱，免費拿到手槍。
-    - 提醒：網路上有攻略說 GTA6 部分保險箱的密碼是隨機的，請以你遊戲裡電腦畫面上的數字為準。
+    - 前往 Balsero 的 Black Eagle 倉庫，找到前方角落的辦公室（門上有密碼鎖）。
+    - 查看辦公室電腦的登入畫面，上面會顯示密碼。
+    - 用密碼開門、打開保險箱，免費拿到手槍。
+    - 提醒：有攻略說 GTA6 部分保險箱密碼是隨機的，請以你遊戲裡電腦畫面上的數字為準。
+  video: "https://www.youtube.com/watch?v=OS1LzjkB5U4"
+  video_title: "GTA 6 Black Eagle Import Kalinga: Black Eagle Warehouse Safe Code"
   status: 已確認
   sources:
     - https://www.gtabase.com/gta-6/weapons/black-eagle-import-kalinga
@@ -90,101 +108,132 @@
     - https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/
 
 - id: w-sm69-keylento
+  x: 1620
+  y: 3170
   name: Shrewsbury SM-69
   type: weapon
   subtype: 狩獵狙擊槍
   region: Key Lento
   approx: true
-  location: Key Lento，Nifty Threads Island Wear 服飾店上方，右側那座塔的頂端。
+  location: Key Lento，Nifty Threads Island Wear 服飾店上方，右側那座塔（無線電塔）的頂端。
   puzzle: false
   steps:
     - 前往 Key Lento 的 Nifty Threads Island Wear。
-    - 爬上右側的塔（可以從圍欄爬上去）。
+    - 從圍欄爬上右側的塔。
     - 塔頂可以免費拿到，附 5 發子彈。
     - 不想爬的話，也可以在擴充版槍店花 $1,850 購買。
-  status: 單一來源
+  video: "https://www.youtube.com/watch?v=fxRygI09bn8"
+  video_title: "How to Get a FREE SNIPER in GTA 6! (Secret Key Lento Tower Location)"
+  status: 單一來源（另有示範影片）
   sources:
     - https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-secret-sniper-location/
 
-- id: w-crabshack-vf5
-  name: Crabshack VF5
+- id: w-cruel-huntsman-sm69
+  x: 1459
+  y: 2791
+  name: Cruel Huntsman's SM-69
   type: weapon
-  subtype: 衝鋒槍（特殊版本）
+  subtype: 狙擊槍（特殊版本）
   region: Pelican Valley
   approx: true
-  location: Pelican Valley 西南部，廢棄螃蟹研究設施裡的船屋，從木棧道進入。
+  location: Pelican Valley 沼澤的獵人小屋，兩棟建築之間的木棧道上，旁邊有鱷魚屍體。
+  puzzle: false
+  steps:
+    - 前往 Pelican Valley 沼澤的獵人小屋。
+    - 在兩棟建築之間的木棧道上找到狙擊槍（旁邊有鱷魚屍體）。
+  video: "https://www.youtube.com/watch?v=JiOGBTMbKyc"
+  video_title: "How To Find The Cruel Huntsman SM-69 Sniper Rifle In GTA 6"
+  status: 已確認
+  sources:
+    - https://www.gtabase.com/gta-6/weapons/cruel-huntsmans-sm-69
+
+- id: w-crabshack-vf5
+  x: 1417
+  y: 2847
+  name: Crabshack VF5
+  type: weapon
+  subtype: 衝鋒槍（特殊版本，不能改裝）
+  region: Pelican Valley
+  approx: true
+  location: Pelican Valley 的廢棄研究站，船屋裡。船屋的門要從木棧道那側輸入密碼打開。
   puzzle: true
   steps:
-    - 前往 Pelican Valley 西南部的廢棄螃蟹研究設施。
-    - 沿木棧道走到船屋。
-    - 船屋的門需要輸入密碼，密碼在哪裡找目前還查不到可靠資料，站長確認後會補上。
-  status: 單一來源
+    - 前往 Pelican Valley 的廢棄研究站（Abandoned Research Outpost）。
+    - 走木棧道到船屋門口，門上有密碼鎖。
+    - 密碼要在研究站裡找，文字攻略沒寫出具體位置，請看示範影片。有影片標題提到「巨型螃蟹彩蛋」，可能跟謎題有關。
+    - 開門進船屋就能拿到衝鋒槍。
+  video: "https://www.youtube.com/watch?v=gcEeJaT-ibU"
+  video_title: "GTA 6 Monster Crab Easter Egg - How To Get The Secret Crabshack SMG"
+  status: 單一來源（另有示範影片）
   sources:
     - https://www.gtabase.com/gta-6/weapons/crabshack-vf5
 
-- id: w-kingfisher-w22
-  name: Kingfisher W-22
+- id: w-kingfishers-w22
+  x: 1501
+  y: 2707
+  name: Kingfishers W-22
   type: weapon
-  subtype: 小型獵槍
+  subtype: 小型獵槍（特殊版本）
   region: Grassrivers
   approx: true
-  location: Grassrivers 的 Kingfisher Compound，房間桌上的武器箱。
-  puzzle: false
+  location: Hamlet 西南方的 Wetman Bay 沼澤，「Fishing Shacks」非法行動的地點。
+  puzzle: true
   steps:
-    - 前往 Grassrivers 的 Kingfisher Compound。
-    - 找到房間桌上的武器箱，免費拿取。
+    - 前往 Hamlet 西南方的 Wetman Bay 沼澤。
+    - 進行「Fishing Shacks」非法行動（Illegal Operation）。
+    - 在行動中搜刮就能拿到這把槍。
+  video: "https://www.youtube.com/watch?v=fcoIAqKoDZ8"
+  video_title: "How to Get the SECRET KINGFISHER W-22 LEGENDARY RIFLE in GTA 6"
   status: 已確認
   sources:
+    - https://www.gtabase.com/gta-6/weapons/kingfishers-w-22
     - https://www.noobfeed.com/articles/gta-6-early-game-guns
-    - https://gamesfuze.com/guides/how-to-get-legendary-weapons-in-gta-6-early/
 
 - id: w-hunters-laird
+  x: 1487
+  y: 2679
   name: Hunter's Laird 350
   type: weapon
-  subtype: 狙擊槍（特殊版本）
-  region: Hamlet
+  subtype: 狙擊槍（特殊版本，不能改裝）
+  region: Grassrivers
   approx: true
-  location: Hamlet 南方的廢棄汽車旅館，房間內的武器箱。
-  puzzle: false
+  location: Hamlet 西南方的 Grassrivers 沼澤，獵人隨機事件。
+  puzzle: true
   steps:
-    - 前往 Hamlet 南方的廢棄汽車旅館。
-    - 先清掉附近的敵人。
-    - 搜查房間裡的武器箱。拿到後永久解鎖。
-  status: 單一來源
+    - 在 Hamlet 西南方的 Grassrivers 沼澤一帶遊蕩，會遇到兩名獵人的隨機事件。
+    - 幫忙把受傷的獵人送到醫院。
+    - 完成後就能拿到這把狙擊槍。
+    - 提醒：隨機事件不一定會馬上出現；有影片稱這把槍可能會錯過，建議早點去。
+  video: "https://www.youtube.com/watch?v=91rcA4zjg74"
+  video_title: "GTA 6 - Where to Find the Legendary Sniper Rifle / Hunter's Laird 350"
+  status: 已確認
   sources:
+    - https://www.gtabase.com/gta-6/weapons/hunters-laird-350
     - https://gamesfuze.com/guides/how-to-get-legendary-weapons-in-gta-6-early/
 
-- id: w-marabunta-grande
-  name: Marabunta Grande
+- id: w-marabunta-hobo
+  x: 1571
+  y: 2637
+  name: Marabunta Grande Hobo
   type: weapon
-  subtype: 霰彈槍（特殊版本）
+  subtype: 雙管鋸短霰彈槍（特殊版本，不能改裝）
   region: Hamlet
   approx: true
-  location: Hamlet 南方一帶的工業倉儲建築內。
+  location: Hamlet 當鋪後面的倉庫裡。
   puzzle: false
   steps:
-    - 前往 Hamlet 南方的工業倉儲區。
-    - 在建築內找到並撿起。拿到後永久解鎖。
-  status: 單一來源
+    - 前往 Hamlet 的當鋪。
+    - 繞到當鋪後面的倉庫，進去就能找到。
+  video: "https://www.youtube.com/watch?v=4rj_NCb4XTY"
+  video_title: "GTA 6 Marabunta Grande Hobo Legendary Shotgun Location"
+  status: 已確認
   sources:
+    - https://www.gtabase.com/gta-6/weapons/marabunta-grande-hobo
     - https://gamesfuze.com/guides/how-to-get-legendary-weapons-in-gta-6-early/
-
-- id: w-vicedale-warehouse
-  name: Duke 556／Type 9 SMG／Kalinga .50
-  type: weapon
-  subtype: 突擊步槍、衝鋒槍、手槍（同一地點）
-  region: South Vice-Dale County
-  approx: true
-  location: South Vice-Dale County 的一座倉庫，三把武器都在這裡。
-  puzzle: false
-  steps:
-    - 前往 South Vice-Dale County 的倉庫。
-    - 在倉庫內搜尋，可以免費拿到三把武器。
-  status: 單一來源
-  sources:
-    - https://www.noobfeed.com/articles/gta-6-early-game-guns
 
 - id: v-paul-walker-eclipse
+  x: 2181
+  y: 1850
   name: Maibatsu '97 Penumbra FF
   name_zh: Paul Walker 致敬車
   type: vehicle
@@ -198,6 +247,8 @@
     - 前往 Vespucci Island 的別墅，進入後破門闖進車庫。
     - 把車開走，之後可以登記成自己的車。
     - 彩蛋：打開後車廂會有蛇跳出來攻擊你，致敬《玩具總動員》胡迪的台詞「我的靴子裡有條蛇」（英文的 boot 也是後車廂的意思）。
+  video: "https://www.youtube.com/watch?v=JPnJPuH4N6Q"
+  video_title: "GTA 6 - Fast and Furious Car Location (Paul Walker's Eclipse) Location Guide | IGN"
   status: 已確認
   sources:
     - https://insider-gaming.com/paul-walker-gta-6-easter-egg/
@@ -206,19 +257,23 @@
     - https://www.bgr.com/2322463/gta-6-hidden-fast-and-furious-paul-walker-car/
 
 - id: v-p996-lazer
+  x: 790
+  y: 3170
   name: P-996 Lazer
   name_zh: 戰鬥機
   type: vehicle
   subtype: 戰鬥機
   region: Mile Zero Air Station
   approx: true
-  location: Leonida Keys 西邊的 Mile Zero Air Station 軍事基地，基地北半部的機場和機庫。
+  location: Leonida 西南方的 Mile Zero Air Station 軍事基地，基地北半部的機場和機庫。
   puzzle: true
   steps:
     - 完成 Jason 的第一個任務後就能前往（第一章）。
     - 進入基地有三種方式：從東南側的特技跳台飛進圍牆內（最不容易爆發槍戰）、從東側大門硬闖，或直接開進去（進入禁區就會被通緝）。
     - 到基地北半部的機庫找到 P-996 Lazer，下車後抓住駕駛艙旁的邊緣爬進去。
     - 起飛後會被高星通緝（有攻略說 4～5 星，最高到 6 星），飛低一點比較不容易被發現。
+  video: "https://www.youtube.com/watch?v=4HCd052lpnA"
+  video_title: "GTA 6: You Can Steal a Fighter Jet in Chapter 1 (But Probably Shouldn't) | IGN"
   status: 已確認
   sources:
     - https://www.destructoid.com/how-to-steal-a-fighter-jet-from-the-military-base-in-gta-6/

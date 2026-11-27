@@ -5,9 +5,10 @@
   var bounds = [[0, 0], [H, W]];
 
   var map = L.map('map', {
-    crs: L.CRS.Simple, minZoom: -3, maxZoom: 2, zoomSnap: 0.25,
-    maxBounds: [[-H * 0.2, -W * 0.2], [H * 1.2, W * 1.2]], attributionControl: false
+    crs: L.CRS.Simple, minZoom: -3, maxZoom: 1, zoomSnap: 0.25,
+    maxBounds: [[-H * 0.2, -W * 0.2], [H * 1.2, W * 1.2]], attributionControl: false, zoomControl: false
   });
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
 
   if (el.dataset.image) {
     L.imageOverlay(el.dataset.image, bounds).addTo(map);
@@ -38,7 +39,7 @@
          (it.approx ? ' ・ <span class="approx">大約位置</span>' : '') + ' ・ ' + esc(it.status) + '</p>';
     h += '<p><b>位置：</b>' + esc(it.location) + '</p>';
     if (it.steps && it.steps.length) {
-      h += '<p><b>' + (it.puzzle ? '🧩 解謎流程' : '取得方式') + '：</b></p><ol>';
+      h += '<p><b>' + (it.puzzle ? '🧩 解謎／闖關流程' : '取得方式') + '：</b></p><ol>';
       it.steps.forEach(function (s) { h += '<li>' + esc(s) + '</li>'; });
       h += '</ol>';
     }
@@ -62,10 +63,10 @@
     var icon = L.divIcon({
       className: 'pin pin-' + it.type + (it.approx ? ' pin-approx' : ''),
       html: '<span>' + (it.type === 'weapon' ? '🔫' : '🚗') + '</span>',
-      iconSize: [34, 34], iconAnchor: [17, 34], popupAnchor: [0, -30]
+      iconSize: [28, 28], iconAnchor: [14, 28], popupAnchor: [0, -26]
     });
     var m = L.marker([H - it.y, it.x], { icon: icon, title: it.name })
-      .bindPopup(popupHtml(it), { maxWidth: 360, minWidth: 260 });
+      .bindPopup(popupHtml(it), { maxWidth: Math.min(340, el.clientWidth - 60), minWidth: Math.min(240, el.clientWidth - 60), maxHeight: Math.max(220, Math.min(440, el.clientHeight - 90)), autoPanPadding: [12, 12] });
     m.item = it;
     markers[it.id] = m;
   });
@@ -108,18 +109,25 @@
   [fRegion, fWeapon, fVehicle, fPuzzle].forEach(function (f) { f.addEventListener('change', apply); });
   apply();
 
+  // 讓大頭針停在地圖偏下方，上方留空間給說明卡
+  function focus(m) {
+    var z = 0;
+    var pt = map.project(m.getLatLng(), z).subtract([0, el.clientHeight * 0.3]);
+    map.setView(map.unproject(pt, z), z, { animate: false });
+    m.openPopup();
+  }
+
   document.querySelectorAll('.show-on-map').forEach(function (b) {
     b.addEventListener('click', function () {
       var m = markers[b.dataset.id];
       if (!m) return;
       if (!map.hasLayer(m)) m.addTo(map);
       el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      map.setView(m.getLatLng(), 0);
-      m.openPopup();
+      focus(m);
     });
   });
 
   // 網址帶 #item-xxx 時直接打開該大頭針
   var hash = location.hash.replace('#item-', '');
-  if (hash && markers[hash]) { map.setView(markers[hash].getLatLng(), 0); markers[hash].openPopup(); }
+  if (hash && markers[hash]) focus(markers[hash]);
 })();

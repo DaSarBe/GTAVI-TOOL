@@ -1,6 +1,6 @@
 # ===== 互動地圖底圖設定 =====
-# 底圖放好後，填入檔案路徑與圖片的實際像素寬高。
-# image 留空時，頁面會顯示「底圖準備中」的佔位畫面。
-image: ""
-width: 4000
-height: 4000
+# 底圖：Rockstar Games 官方公布的 Leonida 地圖海報（https://www.rockstargames.com/VI/downloads）
+# width / height 必須是圖片的實際像素。
+image: /assets/img/map/leonida-map.jpg
+width: 2805
+height: 3840
