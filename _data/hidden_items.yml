@@ -873,3 +873,653 @@
   status: 已確認（GTABase＋示範影片）
   sources:
   - https://www.gtabase.com/gta-6/weapons/unpacked-comshot-12
+
+- id: v-royal-ruby-emerus
+  x: 2150
+  y: 1800
+  name: Royal Ruby Emerus
+  type: vehicle
+  subtype: 超跑
+  region: Rialto Islands
+  approx: true
+  location: Rialto Islands，一位毒梟的住所前。血紅色客製塗裝。
+  puzzle: false
+  steps:
+  - 前往 Rialto Islands 的毒梟住所。
+  - 車就停在那裡，開走即可。
+  video: https://www.youtube.com/watch?v=-a-jE_Lsbbo
+  video_title: GET THE ROYAL RUBY EMERUS FOR FREE – SECRET SUPER CAR LOCATION | GTA 6
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/royal-ruby-emerus
+
+- id: v-purple-drank-emerus
+  x: 2162
+  y: 2046
+  name: Purple Drank Emerus
+  type: vehicle
+  subtype: 超跑
+  region: Waxman Island
+  approx: true
+  location: Waxman Island，被一群偷車賊藏起來的超跑，附客製改裝和珍珠烤漆。
+  puzzle: false
+  steps:
+  - 前往 Downtown 東邊的 Waxman Island。
+  - 找到偷車賊藏車的地方把車開走。有影片稱第一章就能拿到。
+  video: https://www.youtube.com/watch?v=hmWLirRHM48
+  video_title: GTA 6 – How to Get the BEST FREE SUPERCAR in Chapter 1 (Purple Drank Emerus)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/purple-drank-emerus
+
+- id: v-dantes-vitello
+  x: 2200
+  y: 1965
+  name: Dante's Vitello
+  type: vehicle
+  subtype: 跑車
+  region: Starfish Island
+  approx: true
+  location: Starfish Island，Dante Fresh 的豪宅。
+  puzzle: false
+  steps:
+  - 前往 Starfish Island 的 Dante Fresh 豪宅。
+  - 在豪宅找到這輛客製 Vitello。
+  video: https://www.youtube.com/watch?v=jfEjTlYEt8o
+  video_title: HOW TO GET SECRET LAMBORGHINI GALLARDO IN GTA 6! (PEGASSI DANTE'S VITELLO)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/dantes-vitello
+
+- id: v-big-cat-furia
+  x: 2216
+  y: 1982
+  name: Big Cat Furia
+  type: vehicle
+  subtype: 超跑
+  region: Starfish Island
+  approx: true
+  location: Starfish Island 的一棟豪宅，豹紋塗裝的 Furia。
+  puzzle: false
+  steps:
+  - 前往 Starfish Island 的豪宅區。
+  - 找到豹紋塗裝的 Furia。
+  video: https://www.youtube.com/watch?v=r117CPqtu9M
+  video_title: GTA 6 - Piccia Big Cat Furia (Standout Car Location)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/big-cat-furia
+
+- id: v-gilded-dubsta
+  x: 2192
+  y: 1990
+  name: Gilded Dubsta
+  type: vehicle
+  subtype: 越野車（SUV）
+  region: Starfish Island
+  approx: true
+  location: Starfish Island 的一棟豪宅車庫裡，全車金色，旁邊停著兩台金色水上摩托車。
+  puzzle: true
+  steps:
+  - 需要先取得 Key Cloner（鑰匙複製器）。
+  - 前往 Starfish Island 的豪宅，進入車庫。
+  - 用 Key Cloner 開走金色 Dubsta。
+  - 注意：車上裝有標準追蹤器。
+  video: https://www.youtube.com/watch?v=GvXX5np1oNw
+  video_title: 'GTA 6 BENEFACTOR GILDED DUBSTA LOCATION GUIDE #gta6 #grandtheftauto6'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/gilded-dubsta
+
+- id: v-gold-rush-tempesta
+  x: 2350
+  y: 2015
+  name: Gold Rush Tempesta
+  type: vehicle
+  subtype: 超跑
+  region: Ocean Beach
+  approx: true
+  location: Ocean Beach 一家餐廳外，金色的 Tempesta。
+  puzzle: false
+  steps:
+  - 前往 Ocean Beach，在餐廳外找到金色 Tempesta。
+  video: https://www.youtube.com/watch?v=vCR10hpF1fc
+  video_title: How To Get SECRET GOLD LAMBORGHINI in GTA 6! (Pegassi Gold Rush Tempesta Location)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/gold-rush-tempesta
+
+- id: v-chameleon-elegy
+  x: 2368
+  y: 1994
+  name: Chameleon Elegy
+  type: vehicle
+  subtype: 跑車
+  region: Ocean Beach
+  approx: true
+  location: Ocean Beach 一排公寓的後面，變色烤漆的賽車版 Elegy。
+  puzzle: true
+  steps:
+  - 有玩家回報這台只在晚上出現，請在夜間前往。
+  - 到 Ocean Beach 的公寓後方找車。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/chameleon-elegy
+
+- id: v-hornet-growler
+  x: 2342
+  y: 1996
+  name: Hornet Growler
+  type: vehicle
+  subtype: 跑車
+  region: Ocean Beach
+  approx: true
+  location: Ocean Beach 的一座立體停車場，二樓中間區域。
+  puzzle: false
+  steps:
+  - 前往 Ocean Beach 的立體停車場。
+  - 上到二樓，在中間區域找到這台賽車改裝的 Growler。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/hornet-growler
+
+- id: v-mojito-tempesta
+  x: 2041
+  y: 2275
+  name: Mojito Tempesta
+  type: vehicle
+  subtype: 超跑
+  region: Tequesta Retreat
+  approx: true
+  location: Tequesta Retreat 一間飯店外。
+  puzzle: false
+  steps:
+  - 前往 Tequesta Retreat，在飯店外找到這台客製塗裝的 Tempesta。
+  video: https://www.youtube.com/watch?v=woaSKfXNIp4
+  video_title: GTA 6 - Pegassi Mojito Tempesta Car Location (Standout Car)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/mojito-tempesta
+
+- id: v-tsunami-zorrusso
+  x: 1862
+  y: 2530
+  name: Tsunami Zorrusso
+  type: vehicle
+  subtype: 超跑
+  region: Peacock Estates
+  approx: true
+  location: Peacock Estates 的一棟豪宅，獨一無二的賽車規格 Zorrusso。
+  puzzle: false
+  steps:
+  - 前往 Peacock Estates 的豪宅區找到這台車。
+  video: https://www.youtube.com/watch?v=0CG5neHGsYE
+  video_title: GTA 6 - Tsunami Zorrusso - Unique Standout Vehicle Location (Street Racer 14/16)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/tsunami-zorrusso
+
+- id: v-spiderweb-coquette
+  x: 1640
+  y: 3185
+  name: Spiderweb Coquette
+  type: vehicle
+  subtype: 跑車
+  region: Key Lento
+  approx: true
+  location: Key Lento 一棟剛開完派對的房子，樓下車庫裡。
+  puzzle: true
+  steps:
+  - 前往 Key Lento 這棟派對後的房子。
+  - 從屋外樓梯上樓進屋。
+  - 在樓上的照片裡找到車庫後門的密碼。
+  - 下樓用密碼打開車庫後門，把車開走。
+  video: https://www.youtube.com/watch?v=oMxhbOzZ8Zg
+  video_title: GTA 6 Classic Corvette Location & Garage Code (Spiderweb Coquette Standout Car)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/spiderweb-coquette
+
+- id: v-turbo-ruiner
+  x: 1655
+  y: 3168
+  name: Turbo Ruiner
+  type: vehicle
+  subtype: 肌肉車
+  region: Key Lento
+  approx: true
+  location: Key Lento 一戶人家的院子，外露增壓器、後輪加大的 Ruiner。
+  puzzle: false
+  steps:
+  - 前往 Key Lento，在住家院子裡找到這台車。有影片稱遊戲前期就能拿到。
+  video: https://www.youtube.com/watch?v=iCNx2FTLuJY
+  video_title: GTA 6 - SECRET "Turbo Ruiner" Muscle Car With NITROUS! (Early Game Location)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/turbo-ruiner
+
+- id: v-pixel-elegy
+  x: 815
+  y: 2035
+  name: Pixel Elegy
+  type: vehicle
+  subtype: 跑車
+  region: Capri
+  approx: true
+  location: Capri 工地後方的一個黃色貨櫃裡。
+  puzzle: true
+  steps:
+  - 需要主線第三章取得的切割工具（Cut-Off Tool）。
+  - 前往 Capri 的工地，找到後方的黃色貨櫃。
+  - 用車子把擋在前面的流動廁所和木箱推開。
+  - 用切割工具打開貨櫃。
+  video: https://www.youtube.com/watch?v=V9nuVI_-9ng
+  video_title: GTA 6 - Annis Pixel Elegy Location (Standout Car)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/pixel-elegy
+
+- id: v-emancipator-stallion
+  x: 1570
+  y: 1395
+  name: Emancipator Stallion
+  type: vehicle
+  subtype: 肌肉車
+  region: Ambrosia
+  approx: true
+  location: Ambrosia 附近一間穀倉車庫裡。
+  puzzle: true
+  steps:
+  - 前往 Ambrosia 附近的穀倉。
+  - 穀倉門需要密碼，示範影片的標題寫明有密碼，可以直接看影片。
+  - 輸入密碼進去把車開走。
+  video: https://www.youtube.com/watch?v=ulTZqLJPR0g
+  video_title: GTA 6 Classic Mustang Location & Ambrosia Garage Code (Emancipator Stallion Standout Car)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/emancipator-stallion
+
+- id: v-red-apple-rancher
+  x: 1060
+  y: 1130
+  name: Red Apple Orchard Rancher
+  type: vehicle
+  subtype: 越野車
+  region: Manifest Canyon
+  approx: true
+  location: Manifest Canyon 的 Red Apple Orchard 果園車庫裡。
+  puzzle: true
+  steps:
+  - 前往 Manifest Canyon 的 Red Apple Orchard。
+  - 車庫門密碼：360782（GTABase 提供）。
+  - 開門把車開走。
+  video: https://www.youtube.com/watch?v=RM4OQzQ0dUo
+  video_title: GTA 6 - Red Apple Orchard Rancher - Unique Standout Vehicle Location (Topper 4/6)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/red-apple-orchard-rancher
+
+- id: v-malibu-zombie-bobber
+  x: 1737
+  y: 2731
+  name: Malibu Zombie Bobber
+  type: vehicle
+  subtype: 機車
+  region: T.H. Power Station
+  approx: true
+  location: Hamlet 東南方的發電廠（T.H. Power Station），要先經歷一段「奇怪的經歷」才會出現。是致敬 PS2 版《罪惡城》的彩蛋。
+  puzzle: true
+  steps:
+  - 這是《罪惡城》彩蛋：機車有 1980 年代風格塗裝，有影片稱還能拿到 Tommy 的襯衫。
+  - 前往 T.H. Power Station 發電廠觸發事件。
+  - 觸發條件比較複雜，請直接看 IGN 的示範影片。
+  video: https://www.youtube.com/watch?v=gNMTCbS8Ytg
+  video_title: GTA 6 - How to Find the PS2 Vice City Easter Egg | IGN
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/malibu-zombie-bobber
+
+- id: v-hung-carbon-rs
+  x: 1830
+  y: 1500
+  name: Hung Carbon RS
+  type: vehicle
+  subtype: 機車
+  region: Belville
+  approx: true
+  location: Belville 一間機車酒吧附近，被吊在樹上的 Carbon RS。
+  puzzle: false
+  steps:
+  - 前往 Belville 的機車酒吧附近。
+  - 找到吊在樹上的機車，想辦法讓它掉下來。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/hung-carbon-rs
+
+- id: v-midsummer-erode
+  x: 1380
+  y: 620
+  name: Midsummer Erode
+  type: vehicle
+  subtype: 機車
+  region: Bonanza
+  approx: true
+  location: Bonanza 附近的森林，吊在一個詭異的木頭人像上。
+  puzzle: false
+  steps:
+  - 前往 Bonanza 附近的森林。
+  - 找到奇怪的木頭人像，機車就吊在上面。
+  video: https://www.youtube.com/watch?v=4phbAuPQfug
+  video_title: GTA 6 - Midsummer Erode Bike Location (Standout Bike)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/midsummer-erode
+
+- id: v-tormentor-street-blazer
+  x: 1320
+  y: 535
+  name: Tormentor Street Blazer
+  type: vehicle
+  subtype: 沙灘車（ATV）
+  region: Bonanza
+  approx: true
+  location: Bonanza 一間老舊的釣魚小屋，停在棚子裡。
+  puzzle: false
+  steps:
+  - 前往 Bonanza 的老釣魚小屋。
+  - 在棚子裡找到地獄風塗裝的沙灘車。
+  video: https://www.youtube.com/watch?v=rmEm4YaG2O8
+  video_title: 'Where to Find Standout Vehicle Tormentor (Street Blazer) GTA VI '
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/tormentor-street-blazer
+
+- id: v-obsidian-sovereign
+  x: 690
+  y: 1165
+  name: Obsidian Sovereign
+  type: vehicle
+  subtype: 機車
+  region: Draper Island
+  approx: true
+  location: Draper Island，疊在藍色貨櫃上方的 SCOOP 貨櫃裡。
+  puzzle: true
+  steps:
+  - 需要主線第三章取得的切割工具。
+  - 前往 Draper Island 的貨櫃區。
+  - 開一台比較高的卡車停在藍色貨櫃旁，爬上去。
+  - 切開上面的 SCOOP 貨櫃。
+  video: https://www.youtube.com/watch?v=iJw8xuwLnXw
+  video_title: How To Get Western Obsidian Sovereign | GTA 6 | Cut-Off Tool Required!
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/obsidian-sovereign
+
+- id: v-oubliette-coquette
+  x: 1906
+  y: 1792
+  name: Oubliette Coquette
+  type: vehicle
+  subtype: 跑車
+  region: La Perle
+  approx: true
+  location: La Perle，被遺棄在 SCOOP 貨櫃裡生鏽的 Coquette。
+  puzzle: true
+  steps:
+  - 需要主線第三章取得的切割工具。
+  - 前往 La Perle 找到 SCOOP 貨櫃，用工具打開。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/oubliette-coquette
+
+- id: v-booty-fcr
+  x: 1560
+  y: 2178
+  name: Booty FCR 1000
+  type: vehicle
+  subtype: 機車
+  region: VCIA
+  approx: true
+  location: VCIA 機場的一間倉庫，金色車架、超粗輪胎。
+  puzzle: false
+  steps:
+  - 前往 Vice City 國際機場（VCIA）。
+  - 在倉庫裡找到這台機車。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/booty-fcr-1000
+
+- id: v-atlantic-volatus
+  x: 1600
+  y: 2172
+  name: Atlantic Volatus
+  type: vehicle
+  subtype: 直升機
+  region: VCIA
+  approx: true
+  location: VCIA 機場的機庫，海洋迷彩塗裝。
+  puzzle: false
+  steps:
+  - 前往 VCIA 機場的機庫找到這架直升機。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/atlantic-volatus
+
+- id: v-love-fist-shamal
+  x: 1615
+  y: 2192
+  name: Love Fist Shamal
+  type: vehicle
+  subtype: 噴射客機
+  region: VCIA
+  approx: true
+  location: VCIA 機場的機庫，印滿 Love Fist 樂團標誌（GTA 老玩家應該很熟）。
+  puzzle: false
+  steps:
+  - 前往 VCIA 機場的機庫找到這架噴射機。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/love-fist-shamal
+
+- id: v-love-fist-youga
+  x: 1632
+  y: 2204
+  name: Love Fist Youga
+  type: vehicle
+  subtype: 廂型車
+  region: VCIA
+  approx: true
+  location: VCIA 機場的機庫，Love Fist 樂團塗裝的廂型車。
+  puzzle: false
+  steps:
+  - 前往 VCIA 機場的機庫。同一區還有 Love Fist Shamal。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/love-fist-youga
+
+- id: v-dragonfly-volatus
+  x: 1975
+  y: 2045
+  name: Dragonfly Volatus
+  type: vehicle
+  subtype: 直升機
+  region: Downtown
+  approx: true
+  location: Downtown 的 New Quay Plaza 大樓頂樓。
+  puzzle: false
+  steps:
+  - 前往 Downtown 的 New Quay Plaza，上到樓頂。
+  - 頂樓停著這架珍珠烤漆直升機。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/dragonfly-volatus
+
+- id: v-silver-bullet-mallard
+  x: 664
+  y: 1484
+  name: Silver Bullet Mallard
+  type: vehicle
+  subtype: 飛機
+  region: Wild Hog Point
+  approx: true
+  location: Wild Hog Point 的機庫，閃亮銀色塗裝。
+  puzzle: false
+  steps:
+  - 前往 Wild Hog Point 的機庫找到這架飛機。
+  video: https://www.youtube.com/watch?v=RJ266cLu3O0
+  video_title: 'GTA 6 SILVER BULLET MALLARD PLANE LOCATION GUIDE #gta6 #grandtheftauto6'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/silver-bullet-mallard
+
+- id: v-blazing-mallard
+  x: 930
+  y: 2440
+  name: Blazing Mallard
+  type: vehicle
+  subtype: 飛機
+  region: Bobcat Key
+  approx: true
+  location: Bobcat Key 機場的機庫，火焰塗裝。
+  puzzle: false
+  steps:
+  - 前往 Bobcat Key 的機場機庫。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/blazing-mallard
+
+- id: v-stolen-valor
+  x: 946
+  y: 2450
+  name: Stolen Valor 300-H
+  type: vehicle
+  subtype: 飛機
+  region: Bobcat Key
+  approx: true
+  location: Bobcat Key 的機場，改得有點像軍用機。
+  puzzle: false
+  steps:
+  - 前往 Bobcat Key 的機場。同一個機場還有 Blazing Mallard。
+  video: https://www.youtube.com/watch?v=GFjWuJ2UFyM
+  video_title: GTA 6 - Lapwing Stolen Valor 300-H - Unique Standout Vehicle Location (Retro 18/20)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/stolen-valor-300-h
+
+- id: v-bogskimmer-sea-sparrow
+  x: 1380
+  y: 1800
+  name: Bogskimmer Sea Sparrow
+  type: vehicle
+  subtype: 直升機
+  region: Buckskin Swamp
+  approx: true
+  location: Buckskin Swamp 的一座碼頭，沼澤主題塗裝。
+  puzzle: false
+  steps:
+  - 前往 Buckskin Swamp 的碼頭。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/bogskimmer-sea-sparrow
+
+- id: v-will-o-wisp
+  x: 1396
+  y: 1812
+  name: Will O' The Wisp Airboat
+  type: vehicle
+  subtype: 氣墊船
+  region: Buckskin Swamp
+  approx: true
+  location: Buckskin Swamp 的一座碼頭，火焰貼紙的氣墊船。
+  puzzle: false
+  steps:
+  - 前往 Buckskin Swamp 的碼頭。附近還有 Bogskimmer Sea Sparrow 直升機。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/will-o-the-wisp-airboat
+
+- id: v-meteor-duster
+  x: 1338
+  y: 1062
+  name: Meteor Duster
+  type: vehicle
+  subtype: 飛機
+  region: North Kelly County
+  approx: true
+  location: North Kelly County 的一座小型跑道。
+  puzzle: false
+  steps:
+  - 前往 North Kelly County 的小跑道找到這架飛機。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/meteor-duster
+
+- id: v-pussycat-mammatus
+  x: 1270
+  y: 2530
+  name: Pussycat Mammatus
+  type: vehicle
+  subtype: 飛機
+  region: Grassrivers
+  approx: true
+  location: Grassrivers 的一座機庫。
+  puzzle: false
+  steps:
+  - 前往 Grassrivers 的機庫找到這架飛機。
+  video: https://www.youtube.com/watch?v=m2YfB5YNpDI
+  video_title: GTA 6 - How To Get The Pussycat Mammatus Standout Unique Vehicle
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/pussycat-mammatus
+
+- id: v-venomous-marshall
+  x: 1380
+  y: 880
+  name: Venomous Marshall
+  type: vehicle
+  subtype: 怪物卡車
+  region: Mount Kalaga
+  approx: true
+  location: Mount Kalaga National Park 的一間穀倉。
+  puzzle: false
+  steps:
+  - 前往 Mount Kalaga 國家公園，找到穀倉。
+  - 裡面停著這台客製塗裝的怪物卡車。
+  video: https://www.youtube.com/watch?v=EFz1i3psjHA
+  video_title: 'How To Get Vapid Venomous Marshall/Monster Truck | GTA 6 | Spawn Location #3'
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/venomous-marshall
+
+- id: v-truther-burrito
+  x: 1835
+  y: 895
+  name: Truther Burrito
+  type: vehicle
+  subtype: 廂型車
+  region: Millport
+  approx: true
+  location: Millport 一戶人家旁邊，車主是懷疑 SERA 有陰謀的陰謀論者。
+  puzzle: false
+  steps:
+  - 前往 Millport，在住家旁找到這台廂型車。
+  status: 單一來源（GTABase）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/truther-burrito
+
+- id: v-cheetah-1010
+  name: Cheetah 1010
+  type: vehicle
+  subtype: 超跑
+  region: 全地圖（找齊壁畫後出現）
+  location: 找齊 5 幅「1010 壁畫」後，車子會出現在一間車庫裡。車庫確切位置文字攻略沒寫，請看示範影片。
+  puzzle: true
+  steps:
+  - 在地圖各處找齊 5 幅 1010 壁畫（這些壁畫不算在 WAiNK 的 100 個掃描裡）。
+  - 找齊後，Cheetah 1010 會出現在指定車庫。
+  - 車庫位置請參考示範影片。
+  video: https://www.youtube.com/watch?v=dN2IB_Xll_U
+  video_title: How to Get the FREE Grotti Cheetah in GTA 6 (1010 Mural Mission Reward)
+  status: 已確認（GTABase＋示範影片）
+  sources:
+  - https://www.gtabase.com/gta-6/vehicles/1010-cheetah
